@@ -1,0 +1,239 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+/* css de la page */
+.container {
+  width: 100%;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(./img/background-2.jpg!w700wp);
+  height: 100vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  margin: 0 auto;
+}
+
+/*  ===================================
+    css de navbar / barre de navigation
+    ===================================  */
+nav { 
+  position: fixed;
+  top: 0;
+  z-index: 1000; /* Assurez-vous que le nav est au-dessus du contenu */
+  width: 100%;
+  height: 10%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #320f3e;
+}
+
+.logo {
+  width: 30%;
+}
+
+.navbar-links {
+  width: 55%;
+}
+
+ul {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+ul li {
+  font-size: 1.5rem;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: auto;
+  height: 70px;
+  list-style-type: none;
+}
+
+.logo h1 {
+  font-size: 2.5rem;
+  color: #ffd79d;
+  margin-left: 1em;
+  font-family: 'Moon 2.0';
+}
+
+a {
+  text-decoration: none;
+  color: #ffd79d;
+}
+
+li:hover {
+  transition: all 0.3s ease-in;
+  background-color: sandybrown;
+}
+
+/*  ============================
+    css de about / me concernant
+    ============================  */
+
+#about {
+  padding: 5%;
+  background-color: #320f3e;
+}
+
+.about_container {
+  padding: 5%;
+  border-radius: 125px;
+  background-color: sandybrown;
+  box-shadow: 2px 2px 7px 7px #ffd79d;
+  display: flex;
+  flex-direction: row;
+  border: solid;
+  border-color: #ffd79d;
+}
+
+.about_subcontainer_left {
+  width: 50%;
+}
+
+.profil {
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+#PP img {
+  width: 11rem;
+  border-radius: 15px;
+}
+
+.infoPerso {
+  font-size: 1.4rem;
+  width: fit-content;
+  padding-top: 30px;
+  padding-left: 65px;
+}
+
+.about_skills {
+  height: fit-content;
+  display: flex;
+  flex-direction: row;
+}
+
+.about_skills-list {
+  font-size: 1.4rem;
+  padding-top: 30px;
+  padding-left: 65px;
+}
+
+.about_subcontainer_right {
+  width: 50%;
+  flex-direction: column;
+}
+
+.about_title {
+  font-size: 2rem;
+  padding: 15px;
+  padding-bottom: 0px;
+}
+
+.about_title-bar {
+  margin-left: 20px;
+  width: 130px;
+  height: 7px;
+  background-color: #ffd79d;
+}
+
+.about-text {
+  padding: 20px;
+  font-size: 1.2rem;
+}
+
+/*  ============================
+    css de work / Mes projets
+    ============================  */
+
+#work {
+  padding: 5%;
+  background-color: #320f3e;
+}
+
+.work_title {
+  font-size: 2rem;
+  padding: 15px;
+  text-align: center;
+  border-radius: 125px;
+  background-color: sandybrown;
+  box-shadow: 2px 2px 7px 7px #ffd79d;
+}
+
+.work_container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  margin-top: 5%;
+  border-radius: 125px;
+  background-color: sandybrown;
+  box-shadow: 2px 2px 7px 7px #ffd79d;
+  border: solid;
+  border-color: #ffd79d;
+}
+
+.work_subcontainer {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+  padding: 15px;
+  margin: 5%;
+  border-radius: 35px;
+  background-color: #ffd79d;
+}
+
+.work_preview {
+  min-width: 215px;
+  min-height: 215px;
+  max-width: 215px;
+  max-height: 215px;
+  margin-bottom: 15%;
+  border-radius: 100%;
+  overflow: hidden;
+}
+
+.work_text {
+  text-align: center;
+  font-size: 1.3rem;
+}
+
+/*  ============================
+    css de cv / Mes projets
+    ============================  */
+
+#cv {
+  padding: 5%;
+  background-color: #320f3e;
+}
+
+.cv_title {
+  font-size: 2rem;
+  padding: 15px;
+  text-align: center;
+  border-radius: 125px;
+  background-color: sandybrown;
+  box-shadow: 2px 2px 7px 7px #ffd79d;
+}
+
+.cv_preview {
+  text-align: center;
+}
+
+.cv_preview img {
+  width: fit-content;
+  height: fit-content;
+  max-width: 45%;
+  margin-top: 5%;
+  border-radius: 125px;
+  background-color: sandybrown;
+  object-fit: scale-down;
+  box-shadow: 2px 2px 7px 7px #ffd79d;
+  border: solid;
+  border-color: #ffd79d;
+}
