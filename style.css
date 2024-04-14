@@ -71,8 +71,14 @@ a {
 }
 
 li:hover {
+  height: fit-content;
+  margin: auto 0%;
+  padding: 2px 3px;
+  justify-content: space-evenly;
+  align-items: center;  
   transition: all 0.3s ease-in;
   background-color: sandybrown;
+  border-radius: 15px;
 }
 
 /*  ============================
