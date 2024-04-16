@@ -20,6 +20,12 @@ html {
   margin: 0 auto;
 }
 
+a {
+  text-decoration: none;
+  color: #320f3e;
+   /* à terminer */
+}
+
 /*  ===================================
     css de navbar / barre de navigation
     ===================================  */
@@ -65,7 +71,7 @@ ul li {
   font-family: 'Moon 2.0';
 }
 
-a {
+.navbar-links a {
   text-decoration: none;
   color: #ffd79d;
 }
@@ -124,13 +130,15 @@ li:hover {
 
 .about_skills {
   height: fit-content;
+  margin-right: 35%;
   display: flex;
   flex-direction: row;
+  justify-content: space-between;
 }
 
 .about_skills-list {
   font-size: 1.4rem;
-  padding-top: 30px;
+  padding-top: 15px;
   padding-left: 65px;
 }
 
@@ -146,8 +154,8 @@ li:hover {
 }
 
 .about_title-bar {
-  margin-left: 20px;
-  width: 130px;
+  margin-left: 10px;
+  width: 90px;
   height: 7px;
   background-color: #ffd79d;
 }
@@ -170,6 +178,7 @@ li:hover {
   border-radius: 65%;
   background-color: #ffd79d;
   padding: 30px;
+  margin-top: 20px;
   margin-bottom: 20px;
 }
 
@@ -222,6 +231,14 @@ li:hover {
   margin-bottom: 15%;
   border-radius: 100%;
   overflow: hidden;
+}
+
+.work_previewPC {
+  max-width: 215px;
+  max-height: 215px;
+  min-height: 215px;
+  border-radius: 100%;
+  background-color: white;
 }
 
 .work_text {
