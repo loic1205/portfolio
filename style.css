@@ -227,16 +227,6 @@ li:hover {
 }
 
 .work_preview {
-  min-width: 215px;
-  min-height: 215px;
-  max-width: 215px;
-  max-height: 215px;
-  margin-bottom: 15%;
-  border-radius: 100%;
-  overflow: hidden;
-}
-
-.work_previewPC {
   max-width: 215px;
   max-height: 215px;
   min-height: 215px;
