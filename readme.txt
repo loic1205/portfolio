@@ -9,7 +9,4 @@ Mes projets :
 github :
     - tags git avant responsive 
 
-outils utilisé :
-    - ajouter github, vs code et canva
-
 créer le responsive du portfolio
